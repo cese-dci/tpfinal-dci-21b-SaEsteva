@@ -1,9 +1,9 @@
 ## Trabajo práctico final de la asignatura DCI ##
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX
+* Autor: SANTIAGO ESTEVA
+* Título corto del trabajo:  Réplica Modulo Ethernet Enc28j60
+* Descripción:  El módulo Ethernet ENC28J60 utiliza el Ethernet Controller de Microchip. Ofrece una serie de funciones para manejar la mayor parte de los requisitos del protocolo de red. El módulo se conecta directamente a la mayoría de los microcontroladores con interfaz SPI estándar con una velocidad de transferencia de hasta 20MHz.
 
 
 ## Licencia de este trabajo ##
@@ -33,7 +33,3 @@ Se propone y se pide utilizar la siguiente estructura.
 
 Dependiendo la magnitud del proyecto, tendremos más o menos información en estos directorios. 
 Revisar los README.md en cada directorio para conocer las pautas de cada uno para este TP.
-
-NOTA: El alumno puede y debe borrar de este archivo todo lo que considere necesario, por ejemplo las aclaraciones del docente y esta misma nota.
-
-
