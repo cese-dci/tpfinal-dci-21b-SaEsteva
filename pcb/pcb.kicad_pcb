@@ -292,11 +292,6 @@
     )
     (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask)
       (net 26 /Soporte4))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_1x01_P2.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Fiducial:Fiducial_0.5mm_Mask1mm (layer F.Cu) (tedit 5C18CB26) (tstamp 60EA198A)
@@ -885,6 +880,16 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/3dshapes/RJMG1BD3B8K1ANR.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/3dshapes/RJMG1BD3B8K1ANR.stp
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical (layer F.Cu) (tedit 59FED667) (tstamp 60EA0201)
@@ -976,11 +981,6 @@
     )
     (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask)
       (net 8 /Soporte3))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_1x01_P2.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical (layer F.Cu) (tedit 60ECCB7E) (tstamp 60EA01CC)
@@ -1014,11 +1014,6 @@
     )
     (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask)
       (net 7 /Soporte2))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_1x01_P2.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical (layer F.Cu) (tedit 60ECCB8A) (tstamp 60EA01B7)
@@ -1052,11 +1047,6 @@
     )
     (pad 1 thru_hole circle (at 0 0) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask)
       (net 6 /Soporte1))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_1x01_P2.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5F68FEF1) (tstamp 60EA4C74)
