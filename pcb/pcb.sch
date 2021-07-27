@@ -238,39 +238,6 @@ F 8 "695-HC49US-25.0ABJB" H 3500 3800 50  0001 C CNN "Supplier Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J1
-U 1 1 60E43515
-P 2250 4950
-F 0 "J1" H 2330 4992 50  0000 L CNN
-F 1 "Conn_01x01" H 2330 4901 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 2250 4950 50  0001 C CNN
-F 3 "~" H 2250 4950 50  0001 C CNN
-	1    2250 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J2
-U 1 1 60E43AF3
-P 2250 5150
-F 0 "J2" H 2330 5192 50  0000 L CNN
-F 1 "Conn_01x01" H 2330 5101 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 2250 5150 50  0001 C CNN
-F 3 "~" H 2250 5150 50  0001 C CNN
-	1    2250 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J3
-U 1 1 60E43C47
-P 2250 5350
-F 0 "J3" H 2330 5392 50  0000 L CNN
-F 1 "Conn_01x01" H 2330 5301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 2250 5350 50  0001 C CNN
-F 3 "~" H 2250 5350 50  0001 C CNN
-	1    2250 5350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:Fiducial FID1
 U 1 1 60E455C3
 P 4200 4900
@@ -314,12 +281,6 @@ F 3 "~" H 4200 5600 50  0001 C CNN
 	1    4200 5600
 	1    0    0    -1  
 $EndComp
-Text Label 1600 4950 0    50   ~ 0
-Soporte1
-Text Label 1600 5150 0    50   ~ 0
-Soporte2
-Text Label 1600 5350 0    50   ~ 0
-Soporte3
 $Comp
 L power:+3.3V #PWR01
 U 1 1 60E4869C
@@ -838,15 +799,6 @@ F 3 "~" H 900 2400 50  0001 C CNN
 	1    900  2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 4950 1600 4950
-Wire Wire Line
-	2050 5150 1600 5150
-Wire Wire Line
-	2050 5350 1600 5350
-NoConn ~ 1600 5350
-NoConn ~ 1600 5150
-NoConn ~ 1600 4950
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 6106ABE9
@@ -975,19 +927,47 @@ Wire Wire Line
 Wire Wire Line
 	3850 4350 4950 4350
 $Comp
-L Connector_Generic:Conn_01x01 J6
-U 1 1 60EAD1CE
-P 2250 5550
-F 0 "J6" H 2330 5592 50  0000 L CNN
-F 1 "Conn_01x01" H 2330 5501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 2250 5550 50  0001 C CNN
-F 3 "~" H 2250 5550 50  0001 C CNN
-	1    2250 5550
+L Mechanical:MountingHole H1
+U 1 1 60FFAFFD
+P 2300 4900
+F 0 "H1" H 2400 4946 50  0000 L CNN
+F 1 "MountingHole" H 2400 4855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2300 4900 50  0001 C CNN
+F 3 "~" H 2300 4900 50  0001 C CNN
+	1    2300 4900
 	1    0    0    -1  
 $EndComp
-Text Label 1600 5550 0    50   ~ 0
-Soporte4
-NoConn ~ 1600 5550
-Wire Wire Line
-	1600 5550 2050 5550
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61001DC3
+P 2300 5100
+F 0 "H2" H 2400 5146 50  0000 L CNN
+F 1 "MountingHole" H 2400 5055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2300 5100 50  0001 C CNN
+F 3 "~" H 2300 5100 50  0001 C CNN
+	1    2300 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61002005
+P 2300 5300
+F 0 "H3" H 2400 5346 50  0000 L CNN
+F 1 "MountingHole" H 2400 5255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2300 5300 50  0001 C CNN
+F 3 "~" H 2300 5300 50  0001 C CNN
+	1    2300 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61002195
+P 2300 5500
+F 0 "H4" H 2400 5546 50  0000 L CNN
+F 1 "MountingHole" H 2400 5455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2300 5500 50  0001 C CNN
+F 3 "~" H 2300 5500 50  0001 C CNN
+	1    2300 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
