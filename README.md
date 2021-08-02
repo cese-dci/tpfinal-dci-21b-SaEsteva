@@ -7,10 +7,17 @@ Este repositorio contiene el trabajo práctico final para la asignatura de Dise�
 
 
 ## Licencia de este trabajo ##
-XXXMENCIONAR ACÁ LA LICENCIAXXX (Editar este párrafo) 
-Y además colcar el archivo de texto de la misma en el directorio raíz.
-Para este TP se pide que la licencia sea de hardware abierto.
-Ver la sección "What license should I use?": https://www.oshwa.org/faq/
+Este producto cuenta es de código abierto !
+
+El hardware es liberado bajo [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+
+El código es beerware; Si me ve (o cualquier otro empleado de SparkFun) en el local y encuentra útil nuestro código, ¡cómprenos una ronda!
+
+Utilice, reutilice y modifique estos archivos como mejor le parezca. Mantenga la atribución a SparkFun Electronics y libere cualquier derivado bajo la misma licencia.
+
+Distribuido como está; no se da ninguna garantía.
+
+Tus amigos en SparkFun.
 
 ## Estructura del TP FINAL ##
 
