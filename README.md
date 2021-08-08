@@ -7,7 +7,7 @@ Este repositorio contiene el trabajo práctico final para la asignatura de Dise�
 
 
 ## Licencia de este trabajo ##
-Este producto cuenta es de código abierto !
+Este producto es de código abierto !
 
 El hardware es liberado bajo [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
