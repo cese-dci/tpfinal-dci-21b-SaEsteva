@@ -11,13 +11,13 @@ Este producto es de código abierto !
 
 El hardware es liberado bajo [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
-El código es beerware; Si me ve (o cualquier otro empleado de SparkFun) en el local y encuentra útil nuestro código, ¡cómprenos una ronda!
+El código es beerware; Si encuentra útil este código, ¡cómpreme una medualuna!
 
-Utilice, reutilice y modifique estos archivos como mejor le parezca. Mantenga la atribución a SparkFun Electronics y libere cualquier derivado bajo la misma licencia.
+Utilice, reutilice y modifique estos archivos como mejor le parezca. Mantenga la atribución a Santiago Esteva y libere cualquier derivado bajo la misma licencia.
 
 Distribuido como está; no se da ninguna garantía.
 
-Tus amigos en SparkFun.
+Tu amigo Santiago Esteva.
 
 ## Estructura del TP FINAL ##
 
