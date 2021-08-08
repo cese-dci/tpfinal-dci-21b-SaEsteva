@@ -1,3 +1,2 @@
 (fp_lib_table
-  (lib (name 3dshapes)(type KiCad)(uri ${KIPRJMOD}/3dshapes.pretty)(options "")(descr ""))
 )

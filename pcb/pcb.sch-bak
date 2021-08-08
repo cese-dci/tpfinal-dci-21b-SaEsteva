@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Réplica Modulo Ethernet Enc28j60"
-Date "2021-07-10"
-Rev "1"
+Date "2021-08-08"
+Rev "2"
 Comp "FIUBA"
-Comment1 ""
-Comment2 ""
+Comment1 "Santiago Esteva"
+Comment2 "El hardware es liberado bajo Creative Commons ShareAlike 4.0 International."
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -112,17 +112,17 @@ $EndComp
 $Comp
 L Device:C C6
 U 1 1 60E3FC8F
-P 1800 3600
-F 0 "C6" H 1915 3646 50  0000 L CNN
-F 1 "1 uF" H 1915 3555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1838 3450 50  0001 C CNN
-F 3 "~" H 1800 3600 50  0001 C CNN
-F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 1uF 10% X5R" H 1800 3600 50  0001 C CNN "Description"
-F 5 "Taiyo Yuden" H 1800 3600 50  0001 C CNN "Manufacturer"
-F 6 "JMK105BJ105KV-F" H 1800 3600 50  0001 C CNN "Manufacturer Part no."
-F 7 "Mouser" H 1800 3600 50  0001 C CNN "Supplier"
-F 8 "963-JMK105BJ105KV-F" H 1800 3600 50  0001 C CNN "Supplier Part no."
-	1    1800 3600
+P 1300 3800
+F 0 "C6" H 1415 3846 50  0000 L CNN
+F 1 "1 uF" H 1415 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1338 3650 50  0001 C CNN
+F 3 "~" H 1300 3800 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 1uF 10% X5R" H 1300 3800 50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 1300 3800 50  0001 C CNN "Manufacturer"
+F 6 "JMK105BJ105KV-F" H 1300 3800 50  0001 C CNN "Manufacturer Part no."
+F 7 "Mouser" H 1300 3800 50  0001 C CNN "Supplier"
+F 8 "963-JMK105BJ105KV-F" H 1300 3800 50  0001 C CNN "Supplier Part no."
+	1    1300 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -240,45 +240,45 @@ $EndComp
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 60E455C3
-P 4200 4900
-F 0 "FID1" H 4285 4946 50  0000 L CNN
-F 1 "Fiducial" H 4285 4855 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 4200 4900 50  0001 C CNN
-F 3 "~" H 4200 4900 50  0001 C CNN
-	1    4200 4900
+P 3350 5250
+F 0 "FID1" H 3435 5296 50  0000 L CNN
+F 1 "Fiducial" H 3435 5205 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 3350 5250 50  0001 C CNN
+F 3 "~" H 3350 5250 50  0001 C CNN
+	1    3350 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID2
 U 1 1 60E45C3A
-P 4200 5150
-F 0 "FID2" H 4285 5196 50  0000 L CNN
-F 1 "Fiducial" H 4285 5105 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 4200 5150 50  0001 C CNN
-F 3 "~" H 4200 5150 50  0001 C CNN
-	1    4200 5150
+P 3350 5500
+F 0 "FID2" H 3435 5546 50  0000 L CNN
+F 1 "Fiducial" H 3435 5455 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 3350 5500 50  0001 C CNN
+F 3 "~" H 3350 5500 50  0001 C CNN
+	1    3350 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID3
 U 1 1 60E45EAD
-P 4200 5350
-F 0 "FID3" H 4285 5396 50  0000 L CNN
-F 1 "Fiducial" H 4285 5305 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 4200 5350 50  0001 C CNN
-F 3 "~" H 4200 5350 50  0001 C CNN
-	1    4200 5350
+P 3350 5700
+F 0 "FID3" H 3435 5746 50  0000 L CNN
+F 1 "Fiducial" H 3435 5655 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 3350 5700 50  0001 C CNN
+F 3 "~" H 3350 5700 50  0001 C CNN
+	1    3350 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID4
 U 1 1 60E461A9
-P 4200 5600
-F 0 "FID4" H 4285 5646 50  0000 L CNN
-F 1 "Fiducial" H 4285 5555 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 4200 5600 50  0001 C CNN
-F 3 "~" H 4200 5600 50  0001 C CNN
-	1    4200 5600
+P 3350 5950
+F 0 "FID4" H 3435 5996 50  0000 L CNN
+F 1 "Fiducial" H 3435 5905 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 3350 5950 50  0001 C CNN
+F 3 "~" H 3350 5950 50  0001 C CNN
+	1    3350 5950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -515,21 +515,7 @@ F 3 "" H 8900 3900 50  0001 C CNN
 $EndComp
 Connection ~ 8900 3600
 Wire Wire Line
-	9900 3800 9900 3850
-Wire Wire Line
-	9900 3850 8900 3850
-Wire Wire Line
-	8900 3600 8900 3850
-Connection ~ 8900 3850
-Wire Wire Line
-	8900 3850 8900 3900
-Wire Wire Line
-	9900 3850 10950 3850
-Wire Wire Line
-	10950 3850 10950 3500
-Wire Wire Line
 	10950 3500 10800 3500
-Connection ~ 9900 3850
 $Comp
 L Device:R R4
 U 1 1 60E4170B
@@ -663,75 +649,75 @@ Wire Wire Line
 $Comp
 L Device:R R5
 U 1 1 60F5A3EC
-P 2300 3450
-F 0 "R5" H 2370 3496 50  0000 L CNN
-F 1 "1 k" H 2370 3405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2230 3450 50  0001 C CNN
-F 3 "~" H 2300 3450 50  0001 C CNN
-F 4 "Mouser" H 2300 3450 50  0001 C CNN "Supplier"
-F 5 "Thick Film Resistors - SMD 0805 1K00 1%" H 2300 3450 50  0001 C CNN "Description"
-F 6 "Kamaya" H 2300 3450 50  0001 C CNN "Manufacturer"
-F 7 "RMC1/10K1001FTP" H 2300 3450 50  0001 C CNN "Manufacturer Part no."
-F 8 "791-RMC1/10K1001FTP" H 2300 3450 50  0001 C CNN "Supplier Part no."
-	1    2300 3450
+P 1800 3650
+F 0 "R5" H 1870 3696 50  0000 L CNN
+F 1 "1 k" H 1870 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1730 3650 50  0001 C CNN
+F 3 "~" H 1800 3650 50  0001 C CNN
+F 4 "Mouser" H 1800 3650 50  0001 C CNN "Supplier"
+F 5 "Thick Film Resistors - SMD 0805 1K00 1%" H 1800 3650 50  0001 C CNN "Description"
+F 6 "Kamaya" H 1800 3650 50  0001 C CNN "Manufacturer"
+F 7 "RMC1/10K1001FTP" H 1800 3650 50  0001 C CNN "Manufacturer Part no."
+F 8 "791-RMC1/10K1001FTP" H 1800 3650 50  0001 C CNN "Supplier Part no."
+	1    1800 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D1
 U 1 1 60F5ABED
-P 2300 3900
-F 0 "D1" V 2339 3782 50  0000 R CNN
-F 1 "LED" V 2248 3782 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2300 3900 50  0001 C CNN
-F 3 "~" H 2300 3900 50  0001 C CNN
-F 4 "Standard LEDs - SMD Super Red, 633nm 180 mcd, 20mA" H 2300 3900 50  0001 C CNN "Description"
-F 5 "OSRAM Opto Semiconductors" H 2300 3900 50  0001 C CNN "Manufacturer"
-F 6 "LS R976-NR-1" H 2300 3900 50  0001 C CNN "Manufacturer Part no."
-F 7 "Mouser" H 2300 3900 50  0001 C CNN "Supplier"
-F 8 "720-LSR976-NR-1" H 2300 3900 50  0001 C CNN "Supplier Part no."
-	1    2300 3900
+P 1800 4100
+F 0 "D1" V 1839 3982 50  0000 R CNN
+F 1 "LED" V 1748 3982 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1800 4100 50  0001 C CNN
+F 3 "~" H 1800 4100 50  0001 C CNN
+F 4 "Standard LEDs - SMD Super Red, 633nm 180 mcd, 20mA" H 1800 4100 50  0001 C CNN "Description"
+F 5 "OSRAM Opto Semiconductors" H 1800 4100 50  0001 C CNN "Manufacturer"
+F 6 "LS R976-NR-1" H 1800 4100 50  0001 C CNN "Manufacturer Part no."
+F 7 "Mouser" H 1800 4100 50  0001 C CNN "Supplier"
+F 8 "720-LSR976-NR-1" H 1800 4100 50  0001 C CNN "Supplier Part no."
+	1    1800 4100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 60F5B7FF
-P 1800 4150
-F 0 "#PWR03" H 1800 3900 50  0001 C CNN
-F 1 "GND" H 1805 3977 50  0000 C CNN
-F 2 "" H 1800 4150 50  0001 C CNN
-F 3 "" H 1800 4150 50  0001 C CNN
-	1    1800 4150
+P 1300 4350
+F 0 "#PWR03" H 1300 4100 50  0001 C CNN
+F 1 "GND" H 1305 4177 50  0000 C CNN
+F 2 "" H 1300 4350 50  0001 C CNN
+F 3 "" H 1300 4350 50  0001 C CNN
+	1    1300 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 4050 2300 4100
+	1800 4250 1800 4300
 Wire Wire Line
-	2300 4100 1800 4100
+	1800 4300 1300 4300
 Wire Wire Line
-	1800 4100 1800 4150
+	1300 4300 1300 4350
 Wire Wire Line
-	1800 4100 1800 3750
-Connection ~ 1800 4100
+	1300 4300 1300 3950
+Connection ~ 1300 4300
 Wire Wire Line
-	1800 3450 1800 3200
+	1300 3650 1300 3400
 Wire Wire Line
-	2300 3200 2300 3300
+	1800 3400 1800 3500
 Wire Wire Line
-	1800 3200 1800 3150
-Connection ~ 1800 3200
+	1300 3400 1300 3350
+Connection ~ 1300 3400
 $Comp
 L power:+3.3V #PWR02
 U 1 1 60F70906
-P 1800 3150
-F 0 "#PWR02" H 1800 3000 50  0001 C CNN
-F 1 "+3.3V" H 1815 3323 50  0000 C CNN
-F 2 "" H 1800 3150 50  0001 C CNN
-F 3 "" H 1800 3150 50  0001 C CNN
-	1    1800 3150
+P 1300 3350
+F 0 "#PWR02" H 1300 3200 50  0001 C CNN
+F 1 "+3.3V" H 1315 3523 50  0000 C CNN
+F 2 "" H 1300 3350 50  0001 C CNN
+F 3 "" H 1300 3350 50  0001 C CNN
+	1    1300 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 3600 2300 3750
+	1800 3800 1800 3950
 Wire Wire Line
 	7450 2700 7450 2800
 Connection ~ 7450 2800
@@ -823,7 +809,7 @@ Connection ~ 2650 2450
 Wire Wire Line
 	2650 2450 2850 2450
 Wire Wire Line
-	1800 3200 2300 3200
+	1300 3400 1800 3400
 Wire Wire Line
 	3450 1950 3450 1900
 $Comp
@@ -895,79 +881,162 @@ Wire Wire Line
 	4950 1900 4950 2100
 Text Label 4000 3900 0    50   ~ 0
 CLK
-Connection ~ 3700 4350
 Wire Wire Line
-	3700 4350 3850 4350
-Wire Wire Line
-	5150 4100 5150 4350
-Wire Wire Line
-	5150 4350 5950 4350
-Connection ~ 5150 4350
-Wire Wire Line
-	5950 4350 6400 4350
-Connection ~ 5950 4350
-Wire Wire Line
-	6400 4250 6400 4350
-Wire Wire Line
-	5950 4250 5950 4350
-Wire Wire Line
-	4950 4500 4950 4350
-Connection ~ 4950 4350
-Wire Wire Line
-	4950 4350 5150 4350
-Wire Wire Line
-	4950 4100 4950 4350
-Wire Wire Line
-	3300 4350 3700 4350
-Wire Wire Line
-	3850 4350 3850 3700
-Connection ~ 3850 4350
+	3300 4350 3500 4350
 Wire Wire Line
 	3850 3700 4350 3700
-Wire Wire Line
-	3850 4350 4950 4350
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60FFAFFD
-P 2300 4900
-F 0 "H1" H 2400 4946 50  0000 L CNN
-F 1 "MountingHole" H 2400 4855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2300 4900 50  0001 C CNN
-F 3 "~" H 2300 4900 50  0001 C CNN
-	1    2300 4900
+P 1650 5250
+F 0 "H1" H 1750 5296 50  0000 L CNN
+F 1 "MountingHole" H 1750 5205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 1650 5250 50  0001 C CNN
+F 3 "~" H 1650 5250 50  0001 C CNN
+	1    1650 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 61001DC3
-P 2300 5100
-F 0 "H2" H 2400 5146 50  0000 L CNN
-F 1 "MountingHole" H 2400 5055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2300 5100 50  0001 C CNN
-F 3 "~" H 2300 5100 50  0001 C CNN
-	1    2300 5100
+P 1650 5450
+F 0 "H2" H 1750 5496 50  0000 L CNN
+F 1 "MountingHole" H 1750 5405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 1650 5450 50  0001 C CNN
+F 3 "~" H 1650 5450 50  0001 C CNN
+	1    1650 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 61002005
-P 2300 5300
-F 0 "H3" H 2400 5346 50  0000 L CNN
-F 1 "MountingHole" H 2400 5255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2300 5300 50  0001 C CNN
-F 3 "~" H 2300 5300 50  0001 C CNN
-	1    2300 5300
+P 1650 5650
+F 0 "H3" H 1750 5696 50  0000 L CNN
+F 1 "MountingHole" H 1750 5605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 1650 5650 50  0001 C CNN
+F 3 "~" H 1650 5650 50  0001 C CNN
+	1    1650 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 61002195
-P 2300 5500
-F 0 "H4" H 2400 5546 50  0000 L CNN
-F 1 "MountingHole" H 2400 5455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2300 5500 50  0001 C CNN
-F 3 "~" H 2300 5500 50  0001 C CNN
-	1    2300 5500
+P 1650 5850
+F 0 "H4" H 1750 5896 50  0000 L CNN
+F 1 "MountingHole" H 1750 5805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 1650 5850 50  0001 C CNN
+F 3 "~" H 1650 5850 50  0001 C CNN
+	1    1650 5850
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6110AC3C
+P 9900 3900
+F 0 "#PWR?" H 9900 3650 50  0001 C CNN
+F 1 "GND" H 9905 3727 50  0000 C CNN
+F 2 "" H 9900 3900 50  0001 C CNN
+F 3 "" H 9900 3900 50  0001 C CNN
+	1    9900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6110AF16
+P 10950 3900
+F 0 "#PWR?" H 10950 3650 50  0001 C CNN
+F 1 "GND" H 10955 3727 50  0000 C CNN
+F 2 "" H 10950 3900 50  0001 C CNN
+F 3 "" H 10950 3900 50  0001 C CNN
+	1    10950 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 3600 8900 3900
+Wire Wire Line
+	9900 3800 9900 3900
+Wire Wire Line
+	10950 3500 10950 3900
+$Comp
+L power:GND #PWR?
+U 1 1 61115926
+P 5150 4500
+F 0 "#PWR?" H 5150 4250 50  0001 C CNN
+F 1 "GND" H 5155 4327 50  0000 C CNN
+F 2 "" H 5150 4500 50  0001 C CNN
+F 3 "" H 5150 4500 50  0001 C CNN
+	1    5150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61115B91
+P 5950 4500
+F 0 "#PWR?" H 5950 4250 50  0001 C CNN
+F 1 "GND" H 5955 4327 50  0000 C CNN
+F 2 "" H 5950 4500 50  0001 C CNN
+F 3 "" H 5950 4500 50  0001 C CNN
+	1    5950 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61115D0B
+P 6400 4500
+F 0 "#PWR?" H 6400 4250 50  0001 C CNN
+F 1 "GND" H 6405 4327 50  0000 C CNN
+F 2 "" H 6400 4500 50  0001 C CNN
+F 3 "" H 6400 4500 50  0001 C CNN
+	1    6400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61115E83
+P 3850 4450
+F 0 "#PWR?" H 3850 4200 50  0001 C CNN
+F 1 "GND" H 3855 4277 50  0000 C CNN
+F 2 "" H 3850 4450 50  0001 C CNN
+F 3 "" H 3850 4450 50  0001 C CNN
+	1    3850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6111614E
+P 3500 4450
+F 0 "#PWR?" H 3500 4200 50  0001 C CNN
+F 1 "GND" H 3505 4277 50  0000 C CNN
+F 2 "" H 3500 4450 50  0001 C CNN
+F 3 "" H 3500 4450 50  0001 C CNN
+	1    3500 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4450 3500 4350
+Connection ~ 3500 4350
+Wire Wire Line
+	3500 4350 3700 4350
+Wire Wire Line
+	3850 3700 3850 4450
+Wire Wire Line
+	4950 4100 4950 4500
+Wire Wire Line
+	5150 4100 5150 4500
+Wire Wire Line
+	5950 4250 5950 4500
+Wire Wire Line
+	6400 4250 6400 4500
+Text Notes 1500 1700 0    59   ~ 12
+Conector de entrada
+Text Notes 4650 1700 0    59   ~ 12
+Controlador Ethernet
+Text Notes 9450 2150 0    59   ~ 12
+Conector de salida RJ45
+Text Notes 1050 3100 0    59   ~ 12
+Led indicador de alimentación
+Text Notes 1750 5000 0    59   ~ 12
+Montaje
+Text Notes 3300 5050 0    59   ~ 12
+Fiducials
 $EndSCHEMATC
