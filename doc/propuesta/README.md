@@ -7,7 +7,7 @@ Aqui encontrará la información que se presentó al momento de acordar la propu
 * Resumen de la función u objetivo del circuito si es un trabajo de tesis.
 * Cualquier otra nota que se haya usado para definir el TP en el formulario de propuesta.
 
-##Enlances relevantes ##
+## Enlances relevantes ##
 
 Para la documentacion se puede ingresar a la página del vendedor Naylamp Mechatronic SAC el cual tiene una seccion de links con hoja de datos, esquemáticos y tutoriales del módulo:
 * https://naylampmechatronics.com/alambrico/87-modulo-ethernet-enc28j60.html
