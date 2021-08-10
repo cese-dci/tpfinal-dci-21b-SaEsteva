@@ -1041,4 +1041,12 @@ Text Notes 3300 5050 0    59   ~ 12
 Fiducials
 Text Notes 6750 1850 0    59   ~ 12
 Lineas de comunicación
+Text Label 5950 2700 0    50   ~ 0
+TPIN_P
+Text Label 5950 2800 0    50   ~ 0
+TPIN_N
+Text Label 6000 3200 0    50   ~ 0
+TPOUT_P
+Text Label 6000 3300 0    50   ~ 0
+TPOUT_N
 $EndSCHEMATC
